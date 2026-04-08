@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Indian Rocks Beach Guide — Your Gulf Coast Companion</title>
+  <meta name="description" content="Your local guide to Indian Rocks Beach, Florida. Beach conditions, rules, local attractions, and dining — everything you need for the perfect Gulf Coast day." />
+
+  <!-- Preconnect for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Skip nav -->
+  <a href="#main-content" class="skip-nav">Skip to content</a>
+
+  <!-- Navigation -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-container" aria-label="Main navigation">
+      <a href="#hero" class="nav-logo" aria-label="Indian Rocks Beach Guide — home">
+        <span class="nav-logo-wave" aria-hidden="true">
+          <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M2 14C5 8 9 6 14 10C19 14 23 12 26 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M2 18C5 13 9 11 14 15C19 19 23 17 26 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+          </svg>
+        </span>
+        <span class="nav-logo-text">Indian Rocks Beach</span>
+      </a>
+
+      <button class="nav-hamburger" id="nav-hamburger" aria-expanded="false" aria-controls="nav-drawer" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-drawer" role="navigation">
+        <a href="#conditions" class="nav-link" data-section="conditions">Conditions</a>
+        <a href="#rules" class="nav-link" data-section="rules">Rules &amp; Tips</a>
+        <a href="#attractions" class="nav-link" data-section="attractions">Attractions</a>
+        <a href="#dining" class="nav-link" data-section="dining">Dining</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ===================== SECTION 1: HERO ===================== -->
+    <section id="hero" class="section-hero" aria-label="Welcome to Indian Rocks Beach">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-grain" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <span class="hero-eyebrow reveal reveal-up" style="--delay: 0ms">Indian Rocks Beach, Florida</span>
+        <h1 class="hero-headline reveal reveal-up" style="--delay: 100ms">Your Gulf<br><em>Coast Guide</em></h1>
+        <p class="hero-tagline reveal reveal-up" style="--delay: 200ms">Sun, sand, and everything in between.</p>
+        <p class="hero-subtext reveal reveal-up" style="--delay: 300ms">
+          A barrier island gem on Pinellas County's Gulf Coast — known for calm turquoise water, spectacular sunsets, and an unhurried local rhythm.
+        </p>
+        <a href="#conditions" class="btn-hero reveal reveal-up" style="--delay: 450ms">
+          Plan Your Visit
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M8 3v10M4 9l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class="hero-scroll-hint reveal reveal-up" style="--delay: 600ms" aria-hidden="true">
+        <svg width="20" height="28" viewBox="0 0 20 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1" y="1" width="18" height="26" rx="9" stroke="currentColor" stroke-width="1.5" opacity="0.4"/>
+          <circle class="scroll-dot" cx="10" cy="8" r="2.5" fill="currentColor" opacity="0.7"/>
+        </svg>
+      </div>
+
+      <!-- Wave divider -->
+      <div class="wave-divider wave-divider--down" aria-hidden="true" role="presentation">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,60 C240,110 480,10 720,60 C960,110 1200,10 1440,60 L1440,120 L0,120 Z" fill="#F4E4C1"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ===================== SECTION 2: CONDITIONS ===================== -->
+    <section id="conditions" class="section-conditions" aria-labelledby="conditions-heading">
+      <div class="section-grain" aria-hidden="true"></div>
+      <div class="section-inner">
+        <div class="section-heading-block">
+          <span class="section-eyebrow">Day-Of Essentials</span>
+          <h2 id="conditions-heading" class="section-heading reveal reveal-up">Beach Conditions<br>&amp; Essentials</h2>
+          <div class="section-rule" aria-hidden="true"></div>
+        </div>
+
+        <div class="conditions-grid">
+          <!-- Card: Water Conditions -->
+          <article class="info-card reveal reveal-up" style="--delay: 0ms">
+            <div class="info-card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 12C5 6 9 4 12 8C15 12 19 10 22 6"/>
+                <path d="M2 18C5 12 9 10 12 14C15 18 19 16 22 12"/>
+              </svg>
+            </div>
+            <h3 class="info-card-title">Water &amp; Surf</h3>
+            <ul class="info-list">
+              <li><strong>Water Temp:</strong> 72°F (winter) to 86°F (summer)</li>
+              <li><strong>Gulf Conditions:</strong> Generally calm — ideal for swimming &amp; paddleboarding</li>
+              <li><strong>Surf:</strong> Minimal, flat to ankle-high most days</li>
+              <li><strong>UV Index:</strong> High year-round — SPF 30+ recommended</li>
+            </ul>
+          </article>
+
+          <!-- Card: Parking -->
+          <article class="info-card reveal reveal-up" style="--delay: 80ms">
+            <div class="info-card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="3"/>
+                <path d="M9 17V7h4a3 3 0 0 1 0 6H9"/>
+              </svg>
+            </div>
+            <h3 class="info-card-title">Parking</h3>
+            <ul class="info-list">
+              <li><strong>Gulf Blvd:</strong> Metered street parking available</li>
+              <li><strong>Free Lot:</strong> Beach Access #2 — limited spots</li>
+              <li><strong>Pro tip:</strong> Arrive before 9am on peak weekends (May–Sep)</li>
+              <li><strong>Overflow:</strong> Nearby plazas on weekdays</li>
+            </ul>
+          </article>
+
+          <!-- Card: Amenities -->
+          <article class="info-card reveal reveal-up" style="--delay: 160ms">
+            <div class="info-card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                <polyline points="9 22 9 12 15 12 15 22"/>
+              </svg>
+            </div>
+            <h3 class="info-card-title">Amenities</h3>
+            <ul class="info-list">
+              <li><strong>Restrooms:</strong> 1st St, 19th Ave, 27th Ave accesses</li>
+              <li><strong>Showers:</strong> Outdoor rinse stations at main accesses</li>
+              <li><strong>Lifeguards:</strong> Not on duty — swim at your own risk</li>
+              <li><strong>Accessibility:</strong> Wheelchair beach mats available (contact Pinellas County Parks)</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Best Times Callout -->
+        <div class="best-times-callout reveal reveal-up" style="--delay: 240ms">
+          <div class="callout-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"/>
+              <line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+              <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+            </svg>
+          </div>
+          <div class="callout-content">
+            <h3 class="callout-title">Best Times to Visit</h3>
+            <p class="callout-text">
+              <strong>Shoulder season (Apr–May, Sep–Oct)</strong> offers warm water, lower crowds, and better rates.
+              The Gulf faces <strong>west</strong> — sunrise doesn't hit the water, but <strong>sunset is spectacular</strong>.
+              Golden hour starts about 45 minutes before sunset; plan accordingly.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wave divider -->
+      <div class="wave-divider wave-divider--up" aria-hidden="true" role="presentation">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,60 C240,10 480,110 720,60 C960,10 1200,110 1440,60 L1440,120 L0,120 Z" fill="#0D2B3E"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ===================== SECTION 3: RULES & TIPS ===================== -->
+    <section id="rules" class="section-rules" aria-labelledby="rules-heading">
+      <div class="section-grain section-grain--dark" aria-hidden="true"></div>
+      <div class="section-inner">
+        <div class="section-heading-block section-heading-block--light">
+          <span class="section-eyebrow">Know Before You Go</span>
+          <h2 id="rules-heading" class="section-heading section-heading--light reveal reveal-up">Beach Rules<br>&amp; Local Tips</h2>
+          <div class="section-rule section-rule--light" aria-hidden="true"></div>
+        </div>
+
+        <div class="rules-grid">
+          <!-- Rules Column -->
+          <div class="rules-column reveal reveal-up" style="--delay: 0ms">
+            <div class="column-header">
+              <span class="column-header-icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
+                  <line x1="4" y1="22" x2="4" y2="15"/>
+                </svg>
+              </span>
+              <h3 class="column-title column-title--rules">Beach Rules</h3>
+            </div>
+            <ul class="rules-list" aria-label="Official beach rules">
+              <li class="rule-item">
+                <span class="rule-icon" aria-hidden="true">✕</span>
+                <span>No alcohol on the beach (city ordinance)</span>
+              </li>
+              <li class="rule-item">
+                <span class="rule-icon" aria-hidden="true">✕</span>
+                <span>No fires or open flames</span>
+              </li>
+              <li class="rule-item">
+                <span class="rule-icon" aria-hidden="true">✕</span>
+                <span>No glass containers</span>
+              </li>
+              <li class="rule-item">
+                <span class="rule-icon" aria-hidden="true">✕</span>
+                <span>No driving on the beach</span>
+              </li>
+              <li class="rule-item">
+                <span class="rule-icon" aria-hidden="true">✕</span>
+                <span>Fireworks prohibited</span>
+              </li>
+              <li class="rule-item">
+                <span class="rule-icon" aria-label="Dog" role="img">🐕</span>
+                <span>Dogs on leash only — before 9am &amp; after 5pm at designated access points</span>
+              </li>
+              <li class="rule-item">
+                <span class="rule-icon" aria-label="Sea turtle" role="img">🐢</span>
+                <span>Sea turtle nesting season: May 1–Oct 31 — do not disturb nests; no white lights facing beach after dark</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="rules-column-divider" aria-hidden="true"></div>
+
+          <!-- Tips Column -->
+          <div class="tips-column reveal reveal-up" style="--delay: 120ms">
+            <div class="column-header">
+              <span class="column-header-icon column-header-icon--tips" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                </svg>
+              </span>
+              <h3 class="column-title column-title--tips">Local Tips</h3>
+            </div>
+            <ul class="tips-list" aria-label="Local tips for visitors">
+              <li class="tip-item">
+                <span class="tip-bullet" aria-hidden="true">◆</span>
+                <span>Bring a beach cart — parking can be a 5–10 min walk from the sand</span>
+              </li>
+              <li class="tip-item">
+                <span class="tip-bullet" aria-hidden="true">◆</span>
+                <span>Water shoes recommended — occasional shell beds near shore</span>
+              </li>
+              <li class="tip-item">
+                <span class="tip-bullet" aria-hidden="true">◆</span>
+                <span>Arrive early on holiday weekends — Gulf Blvd gets gridlocked by 11am</span>
+              </li>
+              <li class="tip-item">
+                <span class="tip-bullet" aria-hidden="true">◆</span>
+                <span>Check Pinellas County's marine forecast before renting a kayak or paddleboard</span>
+              </li>
+              <li class="tip-item">
+                <span class="tip-bullet" aria-hidden="true">◆</span>
+                <span>Bring cash — some local vendors and parking meters are card-inconsistent</span>
+              </li>
+              <li class="tip-item">
+                <span class="tip-bullet" aria-hidden="true">◆</span>
+                <span>Pack a trash bag — keep the beach beautiful; bins fill fast on busy days</span>
+              </li>
+              <li class="tip-item">
+                <span class="tip-bullet" aria-hidden="true">◆</span>
+                <span>Stay hydrated — Gulf Coast heat index climbs fast in summer; aim for 8oz water per hour in direct sun</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wave divider -->
+      <div class="wave-divider wave-divider--down-light" aria-hidden="true" role="presentation">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,40 C360,100 720,0 1080,60 C1260,90 1380,30 1440,40 L1440,120 L0,120 Z" fill="#FDFAF4"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ===================== SECTION 4: ATTRACTIONS ===================== -->
+    <section id="attractions" class="section-attractions" aria-labelledby="attractions-heading">
+      <div class="section-grain" aria-hidden="true"></div>
+      <div class="section-inner">
+        <div class="section-heading-block">
+          <span class="section-eyebrow">Beyond the Shoreline</span>
+          <h2 id="attractions-heading" class="section-heading reveal reveal-up">Local Attractions</h2>
+          <div class="section-rule" aria-hidden="true"></div>
+        </div>
+
+        <div class="attractions-grid">
+
+          <article class="attraction-card reveal reveal-up" style="--delay: 0ms">
+            <div class="attraction-card-band" style="--band-color: #4A9E6B" aria-hidden="true"></div>
+            <div class="attraction-card-body">
+              <span class="attraction-tag" style="--tag-color: #4A9E6B">Nature</span>
+              <h3 class="attraction-name">Indian Rocks Beach<br>Nature Preserve</h3>
+              <p class="attraction-desc">4-acre coastal preserve with walking trails and wildlife viewing — a quiet escape steps from the bustle of Gulf Blvd.</p>
+              <p class="attraction-location">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                North end of IRB
+              </p>
+            </div>
+          </article>
+
+          <article class="attraction-card reveal reveal-up" style="--delay: 80ms">
+            <div class="attraction-card-band" style="--band-color: #E07A54" aria-hidden="true"></div>
+            <div class="attraction-card-body">
+              <span class="attraction-tag" style="--tag-color: #E07A54">Family · Water Park</span>
+              <h3 class="attraction-name">Splash Harbour<br>Water Park</h3>
+              <p class="attraction-desc">Outdoor water park with slides and a lazy river, right next to the beach. Great for families looking for a break from the waves.</p>
+              <p class="attraction-location">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Gulf Blvd, IRB
+              </p>
+            </div>
+          </article>
+
+          <article class="attraction-card reveal reveal-up" style="--delay: 160ms">
+            <div class="attraction-card-band" style="--band-color: #6DB8C0" aria-hidden="true"></div>
+            <div class="attraction-card-body">
+              <span class="attraction-tag" style="--tag-color: #6DB8C0">Outdoors</span>
+              <h3 class="attraction-name">Pinellas Trail</h3>
+              <p class="attraction-desc">Paved multi-use trail connecting the county. The IRB connector links directly to the countywide network — ideal for cyclists and joggers.</p>
+              <p class="attraction-location">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Accessible from Bay St
+              </p>
+            </div>
+          </article>
+
+          <article class="attraction-card reveal reveal-up" style="--delay: 240ms">
+            <div class="attraction-card-band" style="--band-color: #1A5F7A" aria-hidden="true"></div>
+            <div class="attraction-card-body">
+              <span class="attraction-tag" style="--tag-color: #1A5F7A">Kayaking · Water</span>
+              <h3 class="attraction-name">Hurricane Pass</h3>
+              <p class="attraction-desc">A popular launch point for kayaks and paddleboards into the Intracoastal. Calm water, mangrove shorelines, and frequent dolphin sightings.</p>
+              <p class="attraction-location">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                West Bay Dr at the pass
+              </p>
+            </div>
+          </article>
+
+          <article class="attraction-card reveal reveal-up" style="--delay: 320ms">
+            <div class="attraction-card-band" style="--band-color: #C47D3E" aria-hidden="true"></div>
+            <div class="attraction-card-body">
+              <span class="attraction-tag" style="--tag-color: #C47D3E">Shopping · Dining</span>
+              <h3 class="attraction-name">Johns Pass Village<br>&amp; Boardwalk</h3>
+              <p class="attraction-desc">Waterfront boardwalk village with shops, restaurants, fishing charters, and boat tours. A classic Florida experience just 3 miles south.</p>
+              <p class="attraction-location">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Madeira Beach, ~3 miles south
+              </p>
+            </div>
+          </article>
+
+          <article class="attraction-card reveal reveal-up" style="--delay: 400ms">
+            <div class="attraction-card-band" style="--band-color: #7A6248" aria-hidden="true"></div>
+            <div class="attraction-card-body">
+              <span class="attraction-tag" style="--tag-color: #7A6248">Wildlife · Education</span>
+              <h3 class="attraction-name">Suncoast Seabird<br>Sanctuary</h3>
+              <p class="attraction-desc">One of the largest wild bird hospitals in the US — free to visit. Pelicans, herons, and recovering raptors up close. Genuinely moving.</p>
+              <p class="attraction-location">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                18328 Gulf Blvd, IRB
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Wave divider -->
+      <div class="wave-divider wave-divider--up-sand" aria-hidden="true" role="presentation">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,80 C180,20 360,100 540,60 C720,20 900,100 1080,60 C1260,20 1380,80 1440,60 L1440,120 L0,120 Z" fill="#F4E4C1"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ===================== SECTION 5: DINING ===================== -->
+    <section id="dining" class="section-dining" aria-labelledby="dining-heading">
+      <div class="section-grain" aria-hidden="true"></div>
+      <div class="section-inner">
+        <div class="section-heading-block">
+          <span class="section-eyebrow">Where to Eat &amp; Drink</span>
+          <h2 id="dining-heading" class="section-heading reveal reveal-up">Dining &amp; Drinks</h2>
+          <div class="section-rule" aria-hidden="true"></div>
+        </div>
+
+        <div class="dining-list">
+
+          <article class="dining-row reveal reveal-up" style="--delay: 0ms">
+            <div class="dining-price" aria-label="Price: moderate">$$</div>
+            <div class="dining-info">
+              <div class="dining-name-row">
+                <h3 class="dining-name">The Backwater Bar &amp; Grill</h3>
+                <span class="dining-tag">Casual Waterfront</span>
+              </div>
+              <p class="dining-highlight">Fresh grouper sandwich and sunset views over the Intracoastal. The quintessential IRB meal.</p>
+            </div>
+          </article>
+
+          <article class="dining-row reveal reveal-up" style="--delay: 60ms">
+            <div class="dining-price" aria-label="Price: upscale">$$$</div>
+            <div class="dining-info">
+              <div class="dining-name-row">
+                <h3 class="dining-name">Guppy's on the Beach</h3>
+                <span class="dining-tag">Upscale Casual</span>
+              </div>
+              <p class="dining-highlight">Award-winning seafood, iconic local institution since 1995. Worth the wait on a busy weekend.</p>
+            </div>
+          </article>
+
+          <article class="dining-row reveal reveal-up" style="--delay: 120ms">
+            <div class="dining-price" aria-label="Price: budget">$</div>
+            <div class="dining-info">
+              <div class="dining-name-row">
+                <h3 class="dining-name">Brown Boxer Pub</h3>
+                <span class="dining-tag">Dive Bar · Casual</span>
+              </div>
+              <p class="dining-highlight">Cold beer, wings, and an unpretentious locals hangout. No pretense, no dress code, no regrets.</p>
+            </div>
+          </article>
+
+          <article class="dining-row reveal reveal-up" style="--delay: 180ms">
+            <div class="dining-price" aria-label="Price: moderate">$$</div>
+            <div class="dining-info">
+              <div class="dining-name-row">
+                <h3 class="dining-name">Friendly Fisherman</h3>
+                <span class="dining-tag">Seafood Market + Restaurant</span>
+              </div>
+              <p class="dining-highlight">Buy the catch, have it cooked. Ultra-fresh, no-frills, the way it should be.</p>
+            </div>
+          </article>
+
+          <article class="dining-row reveal reveal-up" style="--delay: 240ms">
+            <div class="dining-price" aria-label="Price: moderate">$$</div>
+            <div class="dining-info">
+              <div class="dining-name-row">
+                <h3 class="dining-name">Slyce Pizza Bar</h3>
+                <span class="dining-tag">Casual · Family</span>
+              </div>
+              <p class="dining-highlight">A solid late-night option with a notable craft beer selection. Family-friendly before 9pm, bar vibes after.</p>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="dining-disclaimer reveal reveal-up" style="--delay: 300ms">
+          <em>All listings are curated recommendations — not paid placements. Hours and availability vary seasonally; call ahead.</em>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M2 14C5 8 9 6 14 10C19 14 23 12 26 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M2 18C5 13 9 11 14 15C19 19 23 17 26 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+        </svg>
+        <span>Indian Rocks Beach Guide</span>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#conditions">Conditions</a>
+        <a href="#rules">Rules &amp; Tips</a>
+        <a href="#attractions">Attractions</a>
+        <a href="#dining">Dining</a>
+      </nav>
+      <p class="footer-copyright">
+        &copy; 2026 Indian Rocks Beach Guide &middot; Not affiliated with any government entity
+      </p>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
