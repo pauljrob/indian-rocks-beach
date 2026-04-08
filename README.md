@@ -2,7 +2,7 @@
 
 A single-page trip companion for visitors to Indian Rocks Beach, Florida — covering beach conditions, rules, local attractions, and dining recommendations.
 
-**Live site:** https://[username].github.io/indian-rocks-beach/
+**Live site:** https://pauljrob.github.io/indian-rocks-beach/
 
 ## Sections
 
